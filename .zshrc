@@ -177,18 +177,10 @@ ZSH_DISABLE_COMPFIX=true
 
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
+### CUSTOM ADDED ####
 
 alias subl='open -a "Sublime Text"'
-
-
-alias python='python3'
-
-
-
-
-export AWS_PROFILE=parkbee-preprod
-
+alias python='python3.12'
 
 alias k='kubectl'
 alias prod='export AWS_PROFILE=prod; echo "Changed AWS_PROFILE=prod"'
@@ -199,8 +191,9 @@ alias kpreprod='kubectl config use-context parkbee-preprod'
 alias kprod='kubectl config use-context parkbee-prod'
 
 alias gcb='git branch --show-current | pbcopy'
+alias gch='git checkout'
 
-
+### END CUSTOM ADDED ###
 
 . "/opt/homebrew/opt/asdf/libexec/asdf.sh"
 
