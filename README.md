@@ -1,4 +1,14 @@
 ## vim
+
+Pre-requisites:
+* Install vim plugin manager
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/74701d99-6868-4c59-9c57-2bb8fa17b483">
 
 ---
