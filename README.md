@@ -1,13 +1,16 @@
 ## vim
 
 Pre-requisites:
-* Install vim plugin manager
+1. Install vim plugin manager
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
+2. Open `vim` and run this command: `:PlugInstall`
+
+Done!
 
 <img width="1512" alt="image" src="https://github.com/user-attachments/assets/74701d99-6868-4c59-9c57-2bb8fa17b483">
 
